@@ -1,0 +1,138 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    max-width: 1500PX;
+    margin: auto;
+}
+
+.fnav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.fnav input {
+    width: 300px;
+    height: 27px;
+    border-radius: 3px;
+    text-align: center;
+    border: 2px solid;
+    margin-top: 16px;
+}
+
+.fnav p {
+    margin-top: 17px;
+    font-size: 17px;
+}
+
+.snav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 11px;
+    background-color: rgb(181, 176, 176);
+    font-weight: 800;
+}
+
+.snav p:hover {
+    border-bottom: 2px solid rgb(13, 13, 56);
+    color: rgb(13, 13, 56);
+    cursor: pointer;
+}
+
+.snav img {
+    width: 7%;
+}
+
+.lens {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(243, 235, 235);
+    padding: 11px;
+}
+
+.lens img {
+    width: 18%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main-img img {
+    width: 100%;
+}
+
+.main img {
+    width: 100%;
+}
+
+.cart {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 11px;
+}
+
+.cart .car {
+    text-align: center;
+}
+
+.card button {
+    width: 100px;
+    height: 33px;
+    color: white;
+    background-color: rgb(52, 241, 241);
+    border-radius: 2px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600px;
+}
+
+.card p {
+    font-size: 16px;
+}
+
+.cart .card img {
+    width: 75%;
+}
+
+.banner h2 {
+    text-align: center;
+    padding: 32px;
+}
+
+.banner .img img {
+    width: 100%;
+}
+
+.banner .t-img {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.t-img img {
+    width: 50%;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    background-color: rgb(26, 26, 86);
+    color: white;
+    padding: 40px;
+}
+
+.footer .list ul {
+    list-style: none;
+}
+
+/* responsive */
+@media screen (max-width: 1080px){
+    
+}
